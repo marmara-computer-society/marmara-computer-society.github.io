@@ -1,1 +1,54 @@
-Hi!
+<!doctype html>
+<html lang="tr">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <title>&lt;3 OpenSource</title>
+  <!-- Bootstrap core CSS -->
+  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <form class="form-signin">
+    <div class="text-center mb-4">
+      <img class="mb-4" src="img/cslogo.png" alt="">
+      <a target="_blank" href="https://github.com/Marmara-Computer-Society">
+        <h1 class="h3 mb-3 font-weight-normal">in Github</h1>
+      </a>
+      <p>Github organizasyonuna katılmak için github üzerindeki mail adresinizi veya github ID'nizi yazmanız gerekir.
+      </p>
+      <p>Github ID'nizi bulmak sizin için küçük bir challenge olacak ｡^‿^｡<br><a target="_blank"
+          href="https://stackoverflow.com/questions/17308954/where-can-i-find-the-github-id-in-my-account/40695228">
+          Github ID'mi nasıl bulurum ? </a></p>
+    </div>
+    <div id="alerts">
+
+
+    </div>
+    <div id="typeID">
+      <div class="form-label-group">
+        <input type="text" id="inputID" class="form-control" placeholder="Github ID" required>
+        <label for="inputID">Github ID</label>
+      </div>
+    </div>
+    <div id="typeMail" style="display: none">
+      <div class="form-label-group">
+        <input type="text" id="inputMail" class="form-control" placeholder="Github Mail" required>
+        <label for="inputMail">Github Mail</label>
+      </div>
+    </div>
+    <p><a href="#" id="changeType">Pes ettim. Mail adresimle kaydolayım.</a></p>
+
+    <button class="btn btn-lg btn-primary btn-block" id="btnRegister">Beni Kaydet</button>
+    <p class="mt-5 mb-3 text-muted text-center">&copy; OpenSource</p>
+  </form>
+  <script src="dist/js/app.js"></script>
+  <script src="dist/js/alert.js"></script>
+</body>
+
+</html>
