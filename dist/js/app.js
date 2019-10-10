@@ -1,5 +1,5 @@
 var registerConfig = {
-    apiURL: "http://94.177.230.206:3001/register",
+    apiURL: "https://alperen.tech:3001/register",
     type: 'id',
     working: false
 };
